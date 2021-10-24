@@ -6,5 +6,13 @@ author:
   bio      : "My awesome biography constrained to a sentence or two goes here."
   location : "Somewhere, USA"
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+
 plugins:
   - jekyll-include-cache

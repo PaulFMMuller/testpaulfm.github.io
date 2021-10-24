@@ -1,4 +1,10 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
+author:
+  name     : "Your Name"
+  avatar   : "/assets/images/logo.png"
+  bio      : "My awesome biography constrained to a sentence or two goes here."
+  location : "Somewhere, USA"
+
 plugins:
   - jekyll-include-cache
